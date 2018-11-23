@@ -1,0 +1,75 @@
+#read-btn {
+  background-color: rgb(109, 8, 129) !important;
+  color: whitesmoke !important;
+
+  margin-left: 2px;
+  align-self: auto;
+  float: center;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#save-btn {
+  background-color: rgb(81, 187, 199) !important;
+  color: pink !important;
+  margin-left: 10px;
+  align-self: auto;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 490px;
+}
+
+.three-inline-buttons .button {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.three-inline-buttons {
+  display: table;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: auto) {
+  .three-inline-buttons .button {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+#delete-btn {
+  background-color: rgb(13, 197, 218) !important;
+  margin-left: 10px;
+  align-self: auto;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 490px;
+}
+
+#size {
+  height: 900px;
+  margin-left: 5px;
+}
+
+#subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+:root {
+  --button-height: 60px;
+}
