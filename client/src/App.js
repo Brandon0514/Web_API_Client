@@ -31,7 +31,7 @@ class App extends Component {
 
   /*------------------Axios-----------------*/
   getPagination = () => {
-    const url = `https://damp-garden-38136.herokuapp.com/${this.state.page}`;
+    const url = `https://damp-garden-38136.herokuapp.com/getTrendingTVshows/${this.state.page}`;
     console.log(url);
     axios
       .get(url)
